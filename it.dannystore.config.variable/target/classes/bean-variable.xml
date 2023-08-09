@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+	<bean id="cliente" class="it.dannystore.service.ClienteService">
+    	<property name="prodotto" ref="prodotto"></property>
+    </bean>
+    
+    <bean id="prodotto" class="it.dannystore.service.ProdottoService">
+    </bean>
+    <bean id="welcome" class="it.dannystore.WelcomeService">
+    	<property name="welcomeMessage" value="Benvenuti nel nostro DannyStore! Stiamo caricando tutti i prodotti disponibili."></property>  
+    </bean>
+
+</beans>
