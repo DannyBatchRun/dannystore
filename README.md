@@ -1,5 +1,5 @@
 # dannystore
-Sample of a Generic Store named "DannyStore" in different methods. <br />
+Sample of a Generic Store named "DannyStore" in different methods. *In Italian Language*<br />
 <h2>Requirements</h2>
 - Java Development Kit 1.8 setted on every project.<br />
 - Spring Framework Setted both in POM and your IDE.<br />
